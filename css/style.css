@@ -1,0 +1,89 @@
+h1,
+h3 {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h1 {
+    font-size: 45px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.parent {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 150px 0px;
+}
+
+.circularPath {
+    text-align: center;
+    height: 700px;
+    width: 700px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 5px lightgreen, 0px 0px 0px 15px white, 0px 0px 0px 25px lightgreen;
+    position: relative;
+}
+
+.internelTitle {
+    position: absolute;
+    z-index: 1;
+}
+
+.childCircle {
+    position: absolute;
+    z-index: 2;
+    display: grid;
+    place-items: center;
+    height: 200px;
+    width: 200px;
+    padding: 15px;
+    background-color: lightpink;
+    border-radius: 50%;
+    border: 10px solid white;
+}
+
+#one {
+    top: -15%;
+    left: 35%;
+}
+
+#two {
+    top: 5%;
+    right: -5%;
+}
+
+#three {
+    top: 45%;
+    right: -15%;
+}
+
+#four {
+    bottom: -7%;
+    right: 13%;
+}
+
+#five {
+    bottom: -7%;
+    left: 13%;
+}
+
+#six {
+    top: 45%;
+    left: -15%;
+}
+
+#seven {
+    top: 5%;
+    left: -5%;
+}
